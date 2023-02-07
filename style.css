@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(211,211,211);
+}
+
+
+.center{
+    align-items: center;
+    margin: 3rem;
+    font-size: 3rem;
+    font-family: 'Material Icons Outlined';
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+}
+/* put the image on the right side */
+.img-intro{
+    float: right;
+    padding-right: 3rem;
+}
+.logo{
+   color: rgb(27, 54, 206);
+
+}
+.header{
+    padding: 1rem 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Material Icons';
+}
+.name{
+    color: rgb(27, 54, 206);
+}
+.center-icons{
+    text-align: center;
+
+}
+/* center the text in the 2D area */
+.intro{
+    font-size: 3rem;
+    font-family: 'Material Icons Outlined';
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 3rem;
+    color: rgb(0, 0, 0);
+}
+.intro p{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Material Icons';
+    color: rgb(0, 0, 0);
+}
+.btn{
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid rgb(9, 157, 255);
+    border-radius: 5px;
+    background-color: rgb(9, 202, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Material Icons';
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+}
+.card:hover{
+    transform: scale(0.9);
+    transition: all 0.2s linear;
+}
+
+
+.progress-bar{
+    border-radius: 5px;
+    height: 1rem;
+    width: 100%;
+}
+.logo a{
+    color: rgb(27, 54, 206);
+    text-decoration: none;
+}
+.logo a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* make the progress bar look better */
+.progress-bar{
+    background-color: rgb(27, 54, 206);
+}
